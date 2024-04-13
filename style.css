@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Orbitron";
+
+}
+
+section {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+
+}
+
+p {
+  position: relative;
+  font-size: 1.5rem;
+  letter-spacing: -0.05em;
+  line-height: 0.7em;
+  background: url(image-1.jpg), url(image-1.jpg), url(image-1.jpg), url(image-1.jpg), url(image-1.jpg), url(image-1.jpg);
+  background-blend-mode: color-dodge;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
